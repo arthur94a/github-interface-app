@@ -5,24 +5,30 @@ const Profile = () => {
     return (
         <S.Wrapper>
             <S.WrapperImage
-                src="https://avatars.githubusercontent.com/u/39008435?v=4"
+                src="https://avatars.githubusercontent.com/u/75532373?v=4"
                 alt="User Avatar"
             />
-            <div>
-                <S.WrapperInfoUser>
+            <S.WrapperInfoUser>
+                <div>
                     <h1>Arthur Araujo</h1>
                     <S.WrapperUserName>
                         <h3>Username:</h3>
-                        <span>arthur94a</span>
+                        <a
+                            href="https://github.com/arthur94a"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            arthur94a
+                        </a>
                     </S.WrapperUserName>
-                </S.WrapperInfoUser>
+                </div>
                 <S.WrapperStatusCount>
                     <div>
                         <h4>Followers</h4>
                         <span>5</span>
                     </div>
                     <div>
-                        <h4>Starreds</h4>
+                        <h4>Starred</h4>
                         <span>5</span>
                     </div>
                     <div>
@@ -30,7 +36,7 @@ const Profile = () => {
                         <span>5</span>
                     </div>
                 </S.WrapperStatusCount>
-            </div>
+            </S.WrapperInfoUser>
         </S.Wrapper>
     );
 }
